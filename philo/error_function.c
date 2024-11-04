@@ -6,14 +6,14 @@
 /*   By: frahenin <frahenin@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 13:38:51 by frahenin          #+#    #+#             */
-/*   Updated: 2024/10/18 13:47:47 by frahenin         ###   ########.fr       */
+/*   Updated: 2024/11/01 10:14:03 by frahenin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	error_exit(char *str)
+int	error_exit(char *str)
 {
 	printf("%s", str);
-	exit(1);
+	return (ERROR);
 }
